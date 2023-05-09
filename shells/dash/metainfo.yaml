@@ -1,4 +1,5 @@
 name: dash
 description: POSIX compliant shell
+sbu: "Less than 0.1SBU"
 downloads:
   - http://gondor.apana.org.au/~herbert/dash/files/dash-0.5.12.tar.gz
