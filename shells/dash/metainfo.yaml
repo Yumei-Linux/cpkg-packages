@@ -1,0 +1,4 @@
+name: dash
+description: POSIX compliant shell
+downloads:
+  - http://gondor.apana.org.au/~herbert/dash/files/dash-0.5.12.tar.gz
