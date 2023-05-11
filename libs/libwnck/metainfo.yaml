@@ -1,0 +1,5 @@
+name: libwnck
+description: Window Navigator Construction Kit.
+sbu: Less than 0.1SBU
+downloads:
+  - https://download.gnome.org/sources/libwnck/43/libwnck-43.0.tar.xz

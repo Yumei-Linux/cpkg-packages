@@ -1,0 +1,5 @@
+name: libxfce4ui
+description: GTK+3 widgets that are used by other Xfce applications.
+sbu: 0.1SBU
+downloads:
+  - https://archive.xfce.org/src/xfce/libxfce4ui/4.18/libxfce4ui-4.18.3.tar.bz2

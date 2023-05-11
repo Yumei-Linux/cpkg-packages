@@ -1,0 +1,5 @@
+name: xfce4-panel
+description: Xfce4 panel implementation.
+sbu: 0.6SBU
+downloads:
+  - https://archive.xfce.org/src/xfce/xfce4-panel/4.18/xfce4-panel-4.18.3.tar.bz2
