@@ -1,0 +1,5 @@
+name: glib-networking
+description: The GLib Networking package contains Network related gio modules for GLib.
+sbu: 0.1SBU
+downloads:
+  - https://download.gnome.org/sources/glib-networking/2.76/glib-networking-2.76.0.tar.xz

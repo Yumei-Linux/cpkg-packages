@@ -1,0 +1,5 @@
+name: libgudev
+description: GObject bindings for libudev
+sbu: less than 0.1SBU
+downloads:
+  - https://download.gnome.org/sources/libgudev/237/libgudev-237.tar.xz

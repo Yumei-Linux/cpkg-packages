@@ -1,0 +1,5 @@
+name: xfce4-screenshooter
+description: Screenshot the screen using the xfce4's official tool.
+sbu: 0.1SBU
+downloads:
+  - https://archive.xfce.org/src/apps/xfce4-screenshooter/1.9/xfce4-screenshooter-1.9.7.tar.bz2

@@ -1,0 +1,5 @@
+name: libxslt
+description: The libxslt package contains XSLT libraries used for extending libxml2 libraries to support XSLT files. 
+sbu: 0.1SBU
+downloads:
+  - https://download.gnome.org/sources/libxslt/1.1/libxslt-1.1.38.tar.xz

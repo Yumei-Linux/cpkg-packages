@@ -1,0 +1,5 @@
+name: hicolor-icon-theme
+description: The hicolor-icon-theme package contains a default fallback theme for implementations of the icon theme specification. 
+sbu: less than 0.1SBU
+downloads:
+  - https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.17.tar.xz

@@ -1,0 +1,5 @@
+name: xfwm4
+description: Xfwm4 is the window manager for Xfce4.
+sbu: 0.2SBU
+downloads:
+  - https://archive.xfce.org/src/xfce/xfwm4/4.18/xfwm4-4.18.0.tar.bz2

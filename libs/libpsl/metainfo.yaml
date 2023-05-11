@@ -1,0 +1,5 @@
+name: libpsl
+description: The libpsl package provides a library for accessing and resolving information from the Public Suffix List (PSL). The PSL is a set of domain names beyond the standard suffixes, such as .com.
+sbu: less than 0.1SBU
+downloads:
+  - https://github.com/rockdaboot/libpsl/releases/download/0.21.2/libpsl-0.21.2.tar.gz

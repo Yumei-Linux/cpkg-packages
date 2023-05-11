@@ -1,0 +1,5 @@
+name: xfce4-settings
+description: The Xfce4 Settings package contains a collection of programs that are useful for adjusting your Xfce preferences.
+sbu: 0.2SBU
+downloads:
+  - https://archive.xfce.org/src/xfce/xfce4-settings/4.18/xfce4-settings-4.18.2.tar.bz2

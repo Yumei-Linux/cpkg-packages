@@ -1,0 +1,5 @@
+name: libusb
+description: The libusb package contains a library used by some applications for USB device access.
+sbu: less than 0.1SBU
+downloads:
+  - https://github.com/libusb/libusb/releases/download/v1.0.26/libusb-1.0.26.tar.bz2
