@@ -1,0 +1,5 @@
+name: tree
+description: The tree application is useful to display a dictionary tree's contents, including files, directories, and links.
+sbu: less than 0.1SBU
+downloads:
+  - https://mama.indstate.edu/users/ice/tree/src/tree-2.1.0.tgz
