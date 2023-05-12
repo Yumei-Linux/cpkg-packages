@@ -1,0 +1,5 @@
+name: sudo
+description: The Sudo package allows a system administrator to give certain users (or groups of users) the ability to run some (or all) commands as root or another user while logging the commands and arguments.
+sbu: 0.4SBU
+downloads:
+  - https://www.sudo.ws/dist/sudo-1.9.13p3.tar.gz
