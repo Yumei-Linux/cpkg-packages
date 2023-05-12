@@ -1,5 +1,12 @@
 name: upower
 description: The UPower package provides an interface for enumerating power devices, listening to device events and querying history and statistics. Any application or service on the system can access the org.freedesktop.UPower service via the system message bus.
 sbu: less than 0.1
+deps:
+  - security/polkit
+  - libs/libusb
+  - libs/libgudev
+provides:
+  - /usr/bin/upower
+  - /usr/lib/upower-glib.so
 downloads:
   - https://gitlab.freedesktop.org/upower/upower/-/archive/v1.90.0/upower-v1.90.0.tar.bz2

@@ -1,5 +1,12 @@
 name: thunar-volman
 description: extension for the Thunar file manager which enables automatic management of removable drives and media.
 sbu: less than 0.1SBU
+deps:
+  - libs/libgudev
+  - utils/exo
+  - desktop-utils/thunar
+provides:
+  - /usr/bin/thunar-volman
+  - /usr/bin/thunar-volman-settings
 downloads:
   - https://archive.xfce.org/src/xfce/thunar-volman/4.18/thunar-volman-4.18.0.tar.bz2

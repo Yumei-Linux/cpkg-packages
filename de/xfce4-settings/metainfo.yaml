@@ -1,5 +1,22 @@
 name: xfce4-settings
 description: The Xfce4 Settings package contains a collection of programs that are useful for adjusting your Xfce preferences.
 sbu: 0.2SBU
+deps:
+  - utils/exo
+  - utils/garcon
+provides:
+  - /usr/bin/xfce4-accessibility-settings
+  - /usr/bin/xfce4-appearance-settings
+  - /usr/bin/xfce4-color-settings
+  - /usr/bin/xfce4-display-settings
+  - /usr/bin/xfce4-find-cursor
+  - /usr/bin/xfce4-keyboard-settings
+  - /usr/bin/xfce4-mime-helper
+  - /usr/bin/xfce4-mime-settings
+  - /usr/bin/xfce4-mouse-settings
+  - /usr/bin/xfce4-mouse-settings
+  - /usr/bin/xfce4-settings-editor
+  - /usr/bin/xfce4-settings-manager
+  - /usr/bin/xfsettingsd
 downloads:
   - https://archive.xfce.org/src/xfce/xfce4-settings/4.18/xfce4-settings-4.18.2.tar.bz2

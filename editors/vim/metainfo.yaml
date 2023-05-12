@@ -3,5 +3,20 @@ description: The Vim package, which is an abbreviation for VI IMproved, contains
 sbu: 0.4SBU
 deps:
   - utils/rsync
+provides:
+  - /usr/bin/vim
+  - /usr/bin/gview
+  - /usr/bin/gvim
+  - /usr/bin/gvimdiff
+  - /usr/bin/gvimtutor
+  - /usr/bin/rgview
+  - /usr/bin/rgvim
+  - /usr/bin/ex
+  - /usr/bin/rview
+  - /usr/bin/rvim
+  - /usr/bin/vi
+  - /usr/bin/vimdiff
+  - /usr/bin/vimtutor
+  - /usr/bin/xxd
 downloads:
   - https://anduin.linuxfromscratch.org/BLFS/vim/vim-9.0.1273.tar.xz

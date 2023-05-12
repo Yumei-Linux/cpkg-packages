@@ -1,5 +1,9 @@
 name: pcre
 description: The PCRE package contains Perl Compatible Regular Expression libraries. These are useful for implementing regular expression pattern matching using the same syntax and semantics as Perl 5.
 sbu: 0.3SBU
+provides:
+  - /usr/bin/pcregrep
+  - /usr/bin/pcretest
+  - /usr/bin/pcre-config
 downloads:
   - https://sourceforge.net/projects/pcre/files/pcre/8.45/pcre-8.45.tar.bz2

@@ -1,0 +1,11 @@
+name: gobject-introspection
+description: The GObject Introspection is used to describe the program APIs and collect them in a uniform, machine readable format.
+sbu: 0.3SBU
+provides:
+  - /usr/bin/g-ir-annotation-tool
+  - /usr/bin/g-ir-compiler
+  - /usr/bin/g-ir-doc-tool
+  - /usr/bin/g-ir-inspect
+  - /usr/bin/g-ir-scaner
+downloads:
+  - https://download.gnome.org/sources/gobject-introspection/1.76/gobject-introspection-1.76.1.tar.xz

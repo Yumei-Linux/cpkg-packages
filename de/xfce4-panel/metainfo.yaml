@@ -1,5 +1,15 @@
 name: xfce4-panel
 description: Xfce4 panel implementation.
 sbu: 0.6SBU
+provides:
+  - /usr/bin/xfce4-panel
+  - /usr/bin/xfce4-popup-applicationsmenu
+  - /usr/bin/xfce4-popup-directorymenu
+  - /usr/bin/xfce4-popup-windowmenu
+  - /usr/lib/libxfce4panel-2.0.so
+deps:
+  - libs/libwnck
+  - utils/garcon
+  - utils/exo
 downloads:
   - https://archive.xfce.org/src/xfce/xfce4-panel/4.18/xfce4-panel-4.18.3.tar.bz2

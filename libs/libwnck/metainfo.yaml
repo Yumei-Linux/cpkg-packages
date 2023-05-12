@@ -1,5 +1,9 @@
 name: libwnck
 description: Window Navigator Construction Kit.
 sbu: Less than 0.1SBU
+provides:
+  - /usr/bin/wnckprop
+  - /usr/bin/wnck-urgency-monitor
+  - /usr/lib/libwnck-3.so
 downloads:
   - https://download.gnome.org/sources/libwnck/43/libwnck-43.0.tar.xz

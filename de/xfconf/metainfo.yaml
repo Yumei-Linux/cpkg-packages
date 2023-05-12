@@ -1,5 +1,9 @@
 name: xfconf
 description: Configuration storage system for Xfce.
 sbu: 0.1SBU
+provides:
+  - /usr/bin/xfconf-query
+deps:
+  - libs/libxfce4util
 downloads:
   - https://archive.xfce.org/src/xfce/xfconf/4.18/xfconf-4.18.1.tar.bz2

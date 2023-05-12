@@ -1,5 +1,12 @@
 name: thunar
 description: Xfce file manager.
 sbu: 0.5SBU (Using parallism=4)
+deps:
+  - utils/exo
+provides:
+  - /usr/bin/thunar
+  - /usr/bin/thunar-settings
+  - /usr/bin/Thunar
+  - /usr/lib/libthunarx-3.so
 downloads:
   - https://archive.xfce.org/src/xfce/thunar/4.18/thunar-4.18.6.tar.bz2

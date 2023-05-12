@@ -1,5 +1,15 @@
 name: polkit
 description: Toolkit for defining and handling authorizations. It is used for allowing unprivileged processes to communicate with privileged processes.
 sbu: 0.3SBU
+deps:
+  - utils/duktape
+provides:
+  - /usr/bin/pkaction
+  - /usr/bin/pkcheck
+  - /usr/bin/pkexec
+  - /usr/bin/pkttyagent
+  - /usr/bin/polkitd
+  - /usr/lib/libpolkit-agent-1.so
+  - /usr/lib/libpolkit-gobject-1.so
 downloads:
   - https://gitlab.freedesktop.org/polkit/polkit/-/archive/122/polkit-122.tar.gz

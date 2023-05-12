@@ -1,5 +1,8 @@
 name: duktape
 description: embeddable Javascript engine, with a focus on portability and compact footprint.
 sbu: 0.3SBU
+provides:
+  - /usr/lib/libduktape.so
+  - /usr/lib/libduktaped.so
 downloads:
   - https://duktape.org/duktape-2.7.0.tar.xz

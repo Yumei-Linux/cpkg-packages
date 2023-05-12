@@ -1,0 +1,10 @@
+name: libnotify
+description: The libnotify library is used to send desktop notifications to a notification daemon, as defined in the Desktop Notifications spec.
+sbu: 0.1SBU
+deps:
+  - libs/gobject-introspection
+provides:
+  - /usr/bin/notify-send
+  - /usr/lib/libnotify.so
+downloads:
+  - https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.2.tar.xz
