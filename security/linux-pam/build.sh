@@ -4,6 +4,7 @@
 # This script builds the package linux-pam
 
 FILENAME="Linux-PAM-1.5.3"
+DOCFILE="${FILENAME}-docs"
 
 tar -xvf "./${FILENAME}.tar.xz"
 
@@ -57,7 +58,7 @@ EOF
 }
 
 pushd $FILENAME
-  tar -xvf ../Linux-PAM-1.5.3-docs.tar.xz --strip-components=1
+  tar -xvf "../${DOCFILE}.tar.xz" --strip-components=1
 
   sed -e 's/dummy elinks/dummy lynx/' \
       -e 's/-no-numbering -no-references/-force-html -nonumbers -stdin/' \
@@ -80,3 +81,4 @@ pushd $FILENAME
 popd
 
 rm -rf "./$FILENAME.tar.xz" "./$FILENAME"
+rm -rf "./$DOCFILE.tar.xz"
