@@ -1,0 +1,8 @@
+name: bash
+description: Bash is a command-line program used on Unix-like systems for executing commands, navigating the file system, running scripts, and automating tasks through scripting.
+sbu: 0.4SBU
+provides:
+  - /usr/bin/bash
+  - /bin/bash
+downloads:
+  - https://lfs.gnlug.org/pub/lfs/lfs-packages/11.3/bash-5.2.15.tar.gz
