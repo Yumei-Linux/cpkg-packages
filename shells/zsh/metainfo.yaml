@@ -1,0 +1,9 @@
+name: zsh
+description: The zsh package contains a command interpreter (shell) usable as an interactive login shell and as a shell script command processor. Of the standard shells, zsh most closely resembles ksh but includes many enhancements.
+sbu: 1.6SBU
+deps:
+  - utils/valgrind
+  - utils/pcre
+downloads:
+  - https://www.zsh.org/pub/zsh-5.9.tar.xz
+  - https://www.zsh.org/pub/zsh-5.9-doc.tar.xz
