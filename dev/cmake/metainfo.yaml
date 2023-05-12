@@ -1,0 +1,5 @@
+name: cmake
+description: The CMake package contains a modern toolset used for generating Makefiles. It is a successor of the auto-generated configure script and aims to be platform- and compiler-independent. A significant user of CMake is KDE since version 4.
+sbu: 2.0SBU
+downloads:
+  - https://cmake.org/files/v3.26/cmake-3.26.3.tar.gz

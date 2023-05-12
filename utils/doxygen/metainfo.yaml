@@ -1,0 +1,8 @@
+name: doxygen
+description: The Doxygen package contains a documentation system for C++, C, Java, Objective-C, Corba IDL and to some extent PHP, C# and D.
+sbu: 1.4SBU
+deps:
+  - dev/cmake
+  - dev/git
+downloads:
+  - https://doxygen.nl/files/doxygen-1.9.6.src.tar.gz

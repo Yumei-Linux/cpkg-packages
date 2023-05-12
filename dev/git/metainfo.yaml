@@ -1,0 +1,7 @@
+name: git
+description: Git is a free and open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+sbu: 0.3SBU
+deps:
+  - net/curl
+downloads:
+  - https://www.kernel.org/pub/software/scm/git/git-2.40.1.tar.xz

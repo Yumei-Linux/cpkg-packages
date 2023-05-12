@@ -1,0 +1,7 @@
+name: vim
+description: The Vim package, which is an abbreviation for VI IMproved, contains a vi clone with extra features as compared to the original vi.
+sbu: 0.4SBU
+deps:
+  - utils/rsync
+downloads:
+  - https://anduin.linuxfromscratch.org/BLFS/vim/vim-9.0.1273.tar.xz
