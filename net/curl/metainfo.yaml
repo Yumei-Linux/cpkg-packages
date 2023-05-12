@@ -1,5 +1,5 @@
 name: curl
-description: The cURL package contains an utility and a library used for transferring files with URL syntax to any of the following protocols: DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTSP, SMB, SMBS, SMTP, SMPTS, TELNET, and TFTP. Its ability to both download and upload files can be incorporated into other programs to support functions like streaming media.
+description: cURL is a command-line tool for transferring data using various protocols, including HTTP, FTP, and SMTP. It supports features such as authentication, cookies, and SSL/TLS encryption, and can be used to perform a variety of tasks such as downloading files, sending email, and testing APIs.
 sbu: 0.3SBU
 deps:
   - security/make-ca
