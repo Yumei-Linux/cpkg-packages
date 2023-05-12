@@ -1,0 +1,7 @@
+name: mousepad
+description: Mousepad is a simple GTK+ 3 text editor for the Xfce desktop environment.
+sbu: 0.1SBU
+deps:
+  - libs/gtksourceview4
+downloads:
+  - https://archive.xfce.org/src/apps/mousepad/0.5/mousepad-0.5.10.tar.bz2
