@@ -1,0 +1,7 @@
+name: fish
+description: Fish is a smart and user-friendly command line shell for Linux, macOS, and the rest of the family.  
+sbu: 1.6SBU
+deps:
+  - utils/pcre
+downloads:
+  - https://github.com/fish-shell/fish-shell/releases/download/3.6.1/fish-3.6.1.tar.xz
