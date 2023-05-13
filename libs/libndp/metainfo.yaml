@@ -1,0 +1,8 @@
+name: libndp
+description: The libndp package provides a wrapper for IPv6 Neighbor Discovery Protocol. It also provides a tool named ndptool for sending and receiving NDP messages.
+sbu: 0.1SBU
+provides:
+  - /usr/bin/ndptool
+  - /usr/lib/libndp.so
+downloads:
+  - http://libndp.org/files/libndp-1.8.tar.gz

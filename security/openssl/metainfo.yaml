@@ -1,0 +1,12 @@
+name: openssl
+description: The OpenSSL package contains management tools and libraries relating to cryptography.
+sbu: 1.6SBU
+provides:
+  - /usr/bin/c_rehash
+  - /usr/bin/openssl
+  - /usr/lib/libcrypto.so
+  - /usr/lib/libcrypto.a
+  - /usr/lib/libssl.so
+  - /usr/lib/libssl.a
+downloads:
+  - https://openssl.org/source/openssl-1.0.2h.tar.gz

@@ -1,0 +1,10 @@
+name: certdata
+description: this package configures the trusted authority certificates dependencies.
+sbu: 0.1SBU
+deps:
+  - security/openssl
+  - net/wget
+provides:
+  - /usr/bin/make-cert.pl
+downloads:
+  - http://anduin.linuxfromscratch.org/BLFS/other/certdata.txt

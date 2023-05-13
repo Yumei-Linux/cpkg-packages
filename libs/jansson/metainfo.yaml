@@ -1,0 +1,7 @@
+name: jansson
+description: The Jansson package contains a library used to encode, decode, and manipulate JSON data.
+sbu: 0.1SBU (with tests)
+provides:
+  - /usr/lib/libjansson.so
+downloads:
+  - https://github.com/akheron/jansson/releases/download/v2.14/jansson-2.14.tar.bz2

@@ -1,6 +1,15 @@
 name: git
 description: Git is a free and open source, distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 sbu: 0.3SBU
+provides:
+  - /usr/bin/git
+  - /usr/bin/git-receive-pack
+  - /usr/bin/git-upload-archive
+  - /usr/bin/git-upload-pack
+  - /usr/bin/git-cvsserver
+  - /usr/bin/git-shell
+  - /usr/bin/gltk
+  - /usr/bin/scalar
 deps:
   - net/curl
 downloads:

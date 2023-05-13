@@ -3,7 +3,7 @@
 # This script is part of the cpkg project
 # This script builds the package make-ca
 
-FILENAME="mkae-ca-1.12"
+FILENAME="make-ca-1.12"
 
 tar -xvf "./${FILENAME}.tar.xz"
 

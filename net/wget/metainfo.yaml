@@ -1,0 +1,7 @@
+name: wget
+description: The wget package contains a utility useful for non-interactive downloading of files from the Web.
+sbu: 0.5SBU
+provides:
+  - /usr/bin/wget
+downloads:
+  - http://ftp.gnu.org/gnu/wget/wget-1.18.tar.xz

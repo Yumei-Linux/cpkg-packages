@@ -1,6 +1,10 @@
 name: curl
 description: cURL is a command-line tool for transferring data using various protocols, including HTTP, FTP, and SMTP. It supports features such as authentication, cookies, and SSL/TLS encryption, and can be used to perform a variety of tasks such as downloading files, sending email, and testing APIs.
 sbu: 0.3SBU
+provides:
+  - /usr/bin/curl
+  - /usr/bin/curl-config
+  - /usr/lib/libcurl.so
 deps:
   - security/make-ca
 downloads:
