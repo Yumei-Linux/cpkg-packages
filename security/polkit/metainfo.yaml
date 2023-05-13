@@ -2,6 +2,8 @@ name: polkit
 description: Toolkit for defining and handling authorizations. It is used for allowing unprivileged processes to communicate with privileged processes.
 sbu: 0.3SBU
 deps:
+  - libs/glib
+  - security/linux-pam
   - utils/duktape
 provides:
   - /usr/bin/pkaction

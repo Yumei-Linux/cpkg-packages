@@ -1,0 +1,7 @@
+name: libuv
+description: The libuv package is a multi-platform support library with a focus on asynchronous I/O.
+sbu: 0.1SBU
+provides:
+  - /usr/lib/libuv.so
+downloads:
+  - https://dist.libuv.org/dist/v1.44.2/libuv-v1.44.2.tar.gz

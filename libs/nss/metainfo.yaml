@@ -1,0 +1,13 @@
+name: nss
+description: The Network Security Services (NSS) package is a set of libraries designed to support cross-platform development of security-enabled client and server applications.
+sbu: 1.1SBU
+provides:
+  - /usr/bin/certutil
+  - /usr/bin/nss-config
+  - /usr/bin/pk12util
+deps:
+  - security/p11-kit
+  - libs/nspr
+downloads:
+  - https://archive.mozilla.org/pub/security/nss/releases/NSS_3_89_1_RTM/src/nss-3.89.1.tar.gz
+  - https://www.linuxfromscratch.org/patches/blfs/svn/nss-3.89.1-standalone-1.patch

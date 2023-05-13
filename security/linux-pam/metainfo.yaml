@@ -1,6 +1,14 @@
 name: linux-pam
 description: The Linux PAM package contains Pluggable Authentication Modules used by the local system administrator to control how application programs authenticate users.
 sbu: 0.4SBU
+provides:
+  - /usr/sbin/faillock
+  - /usr/sbin/mkhomedir
+  - /usr/sbin/pam_namespace_helper
+  - /usr/sbin/pam_timestamp_check
+  - /usr/sbin/pwhistory_helper
+  - /usr/sbin/unix_chkpwd
+  - /usr/sbin/unix_update
 downloads:
   - https://github.com/linux-pam/linux-pam/releases/download/v1.5.3/Linux-PAM-1.5.3.tar.xz
   - https://github.com/linux-pam/linux-pam/releases/download/v1.5.3/Linux-PAM-1.5.3-docs.tar.xz

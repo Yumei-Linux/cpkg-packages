@@ -1,0 +1,13 @@
+name: wpa_supplicant
+description: WPA Supplicant is a Wi-Fi Protected Access (WPA) client and IEEE 802.1X supplicant.
+sbu: 0.5SBU
+deps:
+  - libs/libnl
+  - libs/libxml2
+  - sys/dbus
+provides:
+  - /usr/sbin/wpa_supplicant
+  - /usr/sbin/wpa_passphrase
+  - /usr/sbin/wpa_cli
+downloads:
+  - https://w1.fi/releases/wpa_supplicant-2.10.tar.gz

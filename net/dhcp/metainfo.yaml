@@ -1,0 +1,13 @@
+name: dhcp
+description: dhcpcd gets your Linux system connected to a network by automatically obtaining an IP address and other network settings from a DHCP server.
+sbu: 0.7SBU
+provides:
+  - /usr/bin/dhclient
+  - /usr/bin/dhclient-script
+  - /usr/bin/dhcpd
+  - /usr/bin/dhcrelay
+  - /usr/bin/omshell
+  - /usr/lib/libdhcpctl.a
+  - /usr/lib/libomapi.a
+downloads:
+  - https://ftp.isc.org/isc/dhcp/4.4.3-P1/dhcp-4.4.3-P1.tar.gz

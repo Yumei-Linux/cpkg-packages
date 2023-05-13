@@ -1,0 +1,16 @@
+name: glib
+description: The GLib package contains low-level libraries useful for providing data structure handling for C, portability wrappers and interfaces for such runtime functionality as an event loop, threads, dynamic loading and an object system.
+sbu: 0.5SBU
+deps:
+  - libs/libxslt
+  - utils/pcre2
+  - sys/dbus
+  - libs/gobject-introspection
+provides:
+  - /usr/bin/gapplication
+  - /usr/bin/gdbus
+  - /usr/bin/gdbus-codegen
+  - /usr/bin/gio
+downloads:
+  - https://download.gnome.org/sources/glib/2.76/glib-2.76.2.tar.xz
+  - https://www.linuxfromscratch.org/patches/blfs/svn/glib-2.76.2-skip_warnings-1.patch

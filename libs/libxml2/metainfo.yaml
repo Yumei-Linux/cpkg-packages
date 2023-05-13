@@ -1,0 +1,10 @@
+name: libxml2
+description: The libxml2 package contains libraries and utilities used for parsing XML files.
+sbu: 0.4SBU
+provides:
+  - /usr/bin/xml2-config
+  - /usr/bin/xmlcatalog
+  - /usr/bin/xmllint
+  - /usr/lib/libxml2.so
+downloads:
+  - https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.4.tar.xz

@@ -1,0 +1,11 @@
+name: pcre2
+description: The PCRE2 package contains a new generation of the Perl Compatible Regular Expression libraries. These are useful for implementing regular expression pattern matching using the same syntax and semantics as Perl.
+sbu: 0.4SBU
+deps:
+  - libs/libedit
+provides:
+  - /usr/bin/pcre2-config
+  - /usr/bin/pcre2grep
+  - /usr/bin/pcre2test
+downloads:
+  - https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.42/pcre2-10.42.tar.bz2

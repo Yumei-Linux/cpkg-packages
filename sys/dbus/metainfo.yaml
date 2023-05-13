@@ -1,0 +1,16 @@
+name: dbus
+description: D-Bus is a message bus system, a simple way for applications to talk to one another.
+sbu: 0.2SBU
+provides:
+  - /usr/bin/dbus-cleanup-sockets
+  - /usr/bin/dbus-daemon
+  - /usr/bin/dbus-launch
+  - /usr/bin/dbus-monitor
+  - /usr/bin/dbus-run-session
+  - /usr/bin/dbus-send
+  - /usr/bin/dbus-test-tool
+  - /usr/bin/dbus-update-activation-environment
+  - /usr/bin/dbus-uuidgen
+  - /usr/lib/libdbus-1.so
+downloads:
+  - https://dbus.freedesktop.org/releases/dbus/dbus-1.14.6.tar.xz

@@ -1,0 +1,8 @@
+name: nspr
+description:  Netscape Portable Runtime (NSPR) provides a platform-neutral API for system level and libc like functions.
+sbu: less than 0.1SBU
+provides:
+  - /usr/bin/nspr-config
+  - /usr/lib/libnspr4.so
+downloads:
+  - https://archive.mozilla.org/pub/nspr/releases/v4.35/src/nspr-4.35.tar.gz
